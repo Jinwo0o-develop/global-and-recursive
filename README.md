@@ -20,7 +20,7 @@ global은 코드의 가독성도 저하되고, 만약 함수 하나가 값을 �
 반복문을 사용하지 않고, 반복할 수 있는 방법으로 알게 된 재귀함수<br>
 그렇기에 함수의 사용법부터 물어보았다.<br>
 ![GPT가 알려준 재귀함수 사용법(1)](https://github.com/user-attachments/assets/c44a1405-0dd4-434c-8f49-9aadca50cc38)<br>
-**그대로 사용해본다.**<br>
+그대로 사용해본다.<br>
 ![초반 재귀함수](https://github.com/user-attachments/assets/a3325c8e-12e4-4314-adcc-f1352bc95282)<br>
 return에 사용할 값은 아직 모르겠고, sum_and_count 함수를 변수에 저장해서 값을 출력할 것이다.<br>
 그렇다면 어디서 합계변수 sum을 더할 것이고 어디서 횟수 n을 올릴것인가 ?<br><b
