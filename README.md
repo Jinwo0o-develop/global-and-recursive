@@ -1,5 +1,6 @@
 # global-and-recursive
 > global 전역변수와 재귀함수 사용<br>
+> 
 ' global ' <br>
 저번에 했던 함수에 이어서 global 전역변수를 사용해보기로 했다.<br>
 지역변수 오류때문에 알았던 방법인데, 생각보다 너무 쉽게 풀렸다.<br>
@@ -21,7 +22,7 @@ global은 코드의 가독성도 저하되고, 만약 함수 하나가 값을 �
 ![GPT가 알려준 재귀함수 사용법(1)](https://github.com/user-attachments/assets/c44a1405-0dd4-434c-8f49-9aadca50cc38)<br>
 **그대로 사용해본다.**
 ![초반 재귀함수](https://github.com/user-attachments/assets/a3325c8e-12e4-4314-adcc-f1352bc95282)<br>
-return에 사용할 값은 아직 모르겠고, *sum_and_count* 함수를 변수에 저장해서 값을 출력할 것이다.<br>
+return에 사용할 값은 아직 모르겠고, sum_and_count 함수를 변수에 저장해서 값을 출력할 것이다.<br>
 그렇다면 어디서 합계변수 sum을 더할 것이고 어디서 횟수 n을 올릴것인가 ?<br><b
 if문에서 현재횟수와 목표횟수가 같으면 return, 즉 함수의 종료이기 때문에, else 부분에 숫자 num을 input으로 받는다.<br>
 또, sum 변수를 num안에 넣을 것인데, 이 sum은 정의되어 있지 않던 변수, 즉, 값이 할당되어 있던 변수가 아니다.<br>
